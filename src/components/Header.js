@@ -4,7 +4,6 @@ import MenuIcon from '../assets/menu.png';
 import LibillyLogo from '../assets/logo2.png'
 import InstagramLogo from '../assets/instagram.png';
 import Cancle from '../assets/cancle.png';
-import SidebarImage from '../assets/sidebar.png';
 
 function Header() {
 
@@ -84,7 +83,6 @@ const LibillyHome = styled.div`
     background-position: center center;
 `;
 
-
 const Wrapper = styled.div`
     display: flex;
     width: 100vw;
@@ -106,14 +104,7 @@ const Fadein = keyframes`
     left: 0px;
   }
 `;
-const Fadeout = keyframes`
-  0% {
-    left: 200px;
-  }
-  100% {
-    left: -200px;
-  }
-`;
+
 
 const ModalWrapper = styled.div`
     width: 200px;
@@ -131,8 +122,6 @@ const ModalWrapper = styled.div`
 
     `}
 `;
-
-
 
 const ModalOpacity = styled.div`
     width: 100vw;
