@@ -8,7 +8,7 @@ const About = () => {
         <AboutBlock>
             <Header/>
             <AboutInfo>
-                <video autoPlay controls={false} loop muted style={{width: '100%', height: '100%', objectFit: 'contain'}}>
+                <video autoPlay controls={false} playsinline loop muted style={{width: '100%', height: '100%', objectFit: 'contain'}}>
                     <source src={Dog}/>
                 </video>
             </AboutInfo>
