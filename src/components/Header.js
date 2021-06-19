@@ -4,6 +4,7 @@ import MenuIcon from '../assets/menu.png';
 import LibillyLogo from '../assets/logo2.png'
 import InstagramLogo from '../assets/instagram.png';
 import Cancle from '../assets/cancle.png';
+import {Link} from 'react-router-dom';
 
 function Header() {
 
@@ -16,16 +17,24 @@ function Header() {
         <>
             <HeaderWrappr>
                 <Menu onClick={onToggle} />
-                <LibillyHome/>
-                <Instagram/>
+                <Link to="/" style={{textDecoration: 'none', color: "#000"}}>
+                    <LibillyHome/>
+                </Link>                
+                <a href="https://www.instagram.com/libilly031">
+                    <Instagram/>
+                </a>
             </HeaderWrappr>
             <Wrapper open={open}>
                 <ModalWrapper>
                     <CancleButton onClick={onToggle}/>
                     <Menu2>
-                        <MenuContent>HOME</MenuContent>    
+                        <Link to="/" style={{textDecoration: 'none', color: "#000"}}>
+                            <MenuContent>HOME</MenuContent>    
+                        </Link>  
                         <MenuContent>SHOP</MenuContent>
-                        <MenuContent>ABOUT</MenuContent>    
+                        <Link to="/about" style={{textDecoration: 'none', color: "#000"}}>
+                            <MenuContent>ABOUT</MenuContent>    
+                        </Link> 
                         <MenuContent>CONTACT</MenuContent>
                     </Menu2>
                 </ModalWrapper>
@@ -50,7 +59,7 @@ const Menu = styled.div`
 
 const HeaderWrappr = styled.div`
     width: 90vw;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,8 +82,8 @@ const Instagram = styled.div`
 `;
 
 const LibillyHome = styled.div`
-    width: 158px;
-    height: 40px;
+    width: 113px;
+    height: 25px;
     cursor: pointer;
     background-image: url(${LibillyLogo});
     background: cover;
