@@ -8,7 +8,7 @@ const About = () => {
         <AboutBlock>
             <Header/>
             <AboutInfo>
-                <video autoPlay loop muted style={{width: '100%', height: '100%', objectFit: 'contain'}}>
+                <video autoPlay controls={false} loop muted style={{width: '100%', height: '100%', objectFit: 'contain'}}>
                     <source src={Dog}/>
                 </video>
             </AboutInfo>
@@ -52,4 +52,5 @@ const Span = styled.div`
     font-weight: 900;
     font-size: 2.25vh;
 `;
+
 export default About;

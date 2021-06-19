@@ -8,7 +8,7 @@ const Home = () => {
         <HomeBlock>
             <Header/>
             <Background>
-            <video autoPlay loop muted style={{width: '100%', height: '100%', objectFit: 'cover'}}>
+            <video autoPlay loop controls={false} muted style={{width: '100%', height: '100%', objectFit: 'cover'}}>
                 <source src={BackgroundVideo}/>
             </video>
             </Background>
