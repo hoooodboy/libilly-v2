@@ -57,7 +57,6 @@ const ShopBlock = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 200px;
 `;
 
 const SalesList= styled.div`

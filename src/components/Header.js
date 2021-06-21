@@ -41,6 +41,14 @@ function Header() {
                             <MenuContent>CONTACT</MenuContent>
                         </a>
                     </Menu2>
+                    <LoginWrapper>
+                        <Input type="text" placeholder="아이디" />
+                        <Input type="password" placeholder="비밀번호" />
+                        <LoginButtonWrapper>
+                        <LoginButton>로그인</LoginButton>
+                        <LoginButton>회원가입</LoginButton>
+                        </LoginButtonWrapper>
+                    </LoginWrapper>
                 </ModalWrapper>
                 <ModalOpacity onClick={onToggle}/>
             </Wrapper>
@@ -165,7 +173,6 @@ const Menu2 = styled.div`
     position: absolute;
     top: 70px;
     justify-content: center;
-    cursor: pointer;
 `;
 
 const MenuContent = styled.div`
@@ -178,5 +185,45 @@ const MenuContent = styled.div`
     width: 150px;
 `;
 
+const LoginWrapper = styled.div`
+    position: absolute;
+    justify-content: center;
+    cursor: pointer;
+    top: 250px;
+    width: 150px;
+`;
 
+const Input = styled.input`
+    border: 1px solid #474747;
+    outline: none;
+    padding: 5px;
+    width: 120px;
+    margin-bottom: 10px;
+    background: none;
+    color: #fff;
+`;
+
+const LoginButton = styled.div`
+    font-size: 14px;
+    font-weight: 300;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    background: none;
+    color: #fff;
+    margin-bottom: 5px;
+    &:hover{
+        color: #a6a6a6;
+    }
+`;
+
+const LoginButtonWrapper = styled.div`
+    display: flex;
+    height: 25px;
+    width: 130px;
+    justify-content: space-around;
+
+`;
 export default Header;
