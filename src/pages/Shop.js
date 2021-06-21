@@ -2,17 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 import Header from '../components/Header';
 import GlobalteeImg from '../assets/globaltee.png';
-import DogteeImg from '../assets/dogtee.png';
-import BillylogohoodieImg from '../assets/billylogohoodie.png';
-import Logo031teeImg from '../assets/031tee.png';
-import Shorts031Img from '../assets/031shorts.png';
-import Hoodie031Img from '../assets/031hoodie.png';
-import Fuck031Img from '../assets/031fuck.png';
-import Crewneck031Img from '../assets/031crewneck.png';
-import GrayhoodImg from '../assets/grayhood.png';
-import LibillyjacketImg from '../assets/libillyjacket.png';
-import Ma1Img from '../assets/ma1.png';
-import SocksImg from '../assets/socks.png';
+// import DogteeImg from '../assets/dogtee.png';
+// import BillylogohoodieImg from '../assets/billylogohoodie.png';
+// import Logo031teeImg from '../assets/031tee.png';
+// import Shorts031Img from '../assets/031shorts.png';
+// import Hoodie031Img from '../assets/031hoodie.png';
+// import Fuck031Img from '../assets/031fuck.png';
+// import Crewneck031Img from '../assets/031crewneck.png';
+// import GrayhoodImg from '../assets/grayhood.png';
+// import LibillyjacketImg from '../assets/libillyjacket.png';
+// import Ma1Img from '../assets/ma1.png';
+// import SocksImg from '../assets/socks.png';
 import LibillyglobalteewhiteImg from '../assets/libillyglobalteewhite.png';
 import FuckteewhiteImg from '../assets/fuckteewhite.png';
 import LibillylogoteeImg from '../assets/libillylogotee.png';
@@ -96,49 +96,49 @@ const Hoddie = styled.div`
     }
 `;
 
-const Dogtee = styled(Hoddie)`
-    background-image: url(${DogteeImg});
-`;
+// const Dogtee = styled(Hoddie)`
+//     background-image: url(${DogteeImg});
+// `;
 
-const Billylogohoodie = styled(Hoddie)`
-    background-image: url(${BillylogohoodieImg});
-`;
+// const Billylogohoodie = styled(Hoddie)`
+//     background-image: url(${BillylogohoodieImg});
+// `;
 
-const Logo031tee = styled(Hoddie)`
-    background-image: url(${Logo031teeImg});
-`;
+// const Logo031tee = styled(Hoddie)`
+//     background-image: url(${Logo031teeImg});
+// `;
 
-const Shorts031 = styled(Hoddie)`
-    background-image: url(${Shorts031Img});
-`;
+// const Shorts031 = styled(Hoddie)`
+//     background-image: url(${Shorts031Img});
+// `;
 
-const Hoodie031 = styled(Hoddie)`
-    background-image: url(${Hoodie031Img});
-`;
+// const Hoodie031 = styled(Hoddie)`
+//     background-image: url(${Hoodie031Img});
+// `;
 
-const Fuck031 = styled(Hoddie)`
-    background-image: url(${Fuck031Img});
-`;
+// const Fuck031 = styled(Hoddie)`
+//     background-image: url(${Fuck031Img});
+// `;
 
-const Crewneck031 = styled(Hoddie)`
-    background-image: url(${Crewneck031Img});
-`;
+// const Crewneck031 = styled(Hoddie)`
+//     background-image: url(${Crewneck031Img});
+// `;
 
-const Grayhood = styled(Hoddie)`
-    background-image: url(${GrayhoodImg});
-`;
+// const Grayhood = styled(Hoddie)`
+//     background-image: url(${GrayhoodImg});
+// `;
 
-const Libillyjacket = styled(Hoddie)`
-    background-image: url(${LibillyjacketImg});
-`;
+// const Libillyjacket = styled(Hoddie)`
+//     background-image: url(${LibillyjacketImg});
+// `;
 
-const Ma1 = styled(Hoddie)`
-    background-image: url(${Ma1Img});
-`;
+// const Ma1 = styled(Hoddie)`
+//     background-image: url(${Ma1Img});
+// `;
 
-const Socks = styled(Hoddie)`
-    background-image: url(${SocksImg});
-`;
+// const Socks = styled(Hoddie)`
+//     background-image: url(${SocksImg});
+// `;
 
 const Libillyglobalteewhite = styled(Hoddie)`
     background-image: url(${LibillyglobalteewhiteImg});
