@@ -30,12 +30,16 @@ function Header() {
                     <Menu2>
                         <Link to="/" style={{textDecoration: 'none', color: "#000"}}>
                             <MenuContent>HOME</MenuContent>    
+                        </Link>
+                        <Link to="/shop" style={{textDecoration: 'none', color: "#000"}}>
+                            <MenuContent>SHOP</MenuContent>
                         </Link>  
-                        <MenuContent>SHOP</MenuContent>
                         <Link to="/about" style={{textDecoration: 'none', color: "#000"}}>
                             <MenuContent>ABOUT</MenuContent>    
                         </Link> 
-                        <MenuContent>CONTACT</MenuContent>
+                        <a href="mailto:libilly_official@naver.com" style={{textDecoration: 'none', color: "#000"}}>
+                            <MenuContent>CONTACT</MenuContent>
+                        </a>
                     </Menu2>
                 </ModalWrapper>
                 <ModalOpacity onClick={onToggle}/>

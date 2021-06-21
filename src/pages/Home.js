@@ -26,7 +26,7 @@ const HomeBlock = styled.div`
 `;
 
 const Background = styled.div`
-    width: 100vw;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
